@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="225dp"
+        android:layout_height="120dp">
+
+        <com.conglai.leankit.ui.widget.LeanImageView
+            android:id="@+id/im_static_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:siShape="@drawable/lean_im_conversation_content_bg_right" />
+
+        <com.conglai.leankit.ui.widget.LeanTextView
+            android:id="@+id/im_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/lean_im_shape_conversation_location_text_bg"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="8dp"
+            android:text="西湖区古墩莱茵达大厦"
+            android:textColor="@color/lean_im_color_white"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

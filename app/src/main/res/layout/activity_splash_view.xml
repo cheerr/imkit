@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp">
+
+
+    <EditText
+        android:id="@+id/who"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="输入对话ID"
+        android:minLines="5"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/send_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送信息" />
+
+    <Button
+        android:id="@+id/send_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送图片" />
+
+    <Button
+        android:id="@+id/convlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="会话列表" />
+
+
+    <EditText
+        android:id="@+id/message_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="10sp" />
+
+</LinearLayout>
+
+

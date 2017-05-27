@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lean_im_color_white">#ffffff</color>
+
+    <color name="lean_im_alpha_black_color">#33000000</color>
+    <color name="lean_im_alpha_black_color_60">#60000000</color>
+    <color name="lean_im_right_text_color">#333333</color>
+    <color name="lean_im_left_text_color">#333333</color>
+
+</resources>
